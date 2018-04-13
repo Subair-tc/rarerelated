@@ -1,0 +1,88 @@
+.default-tag-list, .posttypes-list {
+    max-height: 500px;
+    overflow-y: scroll;
+    float: left;
+    width: 90%;
+    padding: 15px;
+    border-radius: 9px;
+    border: 1px solid #afacac;
+}
+.posttypes-list {
+    max-height: 571px;
+}
+.post_type_details{
+    display: none;
+}
+.post_type_details.active{
+    display:block;
+}
+.rarerelated_option {
+    float: left;
+    width: 100%;
+    max-width: 850px;
+    margin-left: 40px;
+    background: #eee;
+    margin-top: 20px;
+    padding: 20px;
+}
+.success_block{
+	float:left;
+	width:100%;
+}
+.rarerelated_option h2{
+	font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #444444;
+    margin-bottom: 15px;
+    float: left;
+    width: 90%;
+	text-align:center;
+}
+input[name="update_rarerelated_options"] {
+    float: right;
+    border: none;
+    background: #444;
+    border-radius: 7px;
+    width: 86px;
+    height: 34px;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: lowercase;
+}
+input[name="update_rarerelated_options"]:hover{
+	background:#c96a76;
+}
+.default-tag-list .form-group input, .posttypes-list  .form-group input{
+	float: left;
+    margin-top: 2px !important;
+    line-height: 13px  !important;
+    margin-right: 10px !important;
+}
+.form-group {
+    float: left;
+    width: 100%;
+}
+.form-group label {
+    float: left;
+    min-width: 100px;
+}
+.form-group label:after{
+	content: ":";
+}
+#searchtag-input, #searchpost_type-input {
+    float: left;
+    width: 90%;
+    height: 36px;
+    border-radius: 7px;
+    border: 1px solid #870011;
+    color: #870011;
+}
+.tags-added{
+	float:left;
+	width:100%;
+}
+.tags-added span{
+	font-weight:bold;
+}
